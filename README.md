@@ -1,5 +1,5 @@
 # weather-app
-Weather simple dashboard using data from [](http://openweathermap.org) using Angular 2
+Weather simple dashboard using data from (http://openweathermap.org) using Angular 2
 ## Install
 You should have angular-cli to deal with this. install via
 `npm install -g angular-cli`
