@@ -1,0 +1,10 @@
+.weather-app .completer-dropdown-holder {
+    position: absolute;
+    top: 52px;
+}
+
+.weather-app .completer-dropdown {
+    max-height: 150px;
+    overflow-y: auto;
+    width: 100%;
+}

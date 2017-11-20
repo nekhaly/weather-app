@@ -1,0 +1,37 @@
+.weather-app .weather-image {
+    min-height: 150px;
+    background-size: contain;     
+    background-repeat: no-repeat;  
+    background-position: center; 
+}
+
+.weather-app .panel-title-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.weather-app .remove-icon {
+    top: 12px;
+    cursor: pointer;
+}
+
+.weather-app .temp-window {
+    position: relative;
+    transform: translateY(50%); 
+}
+
+@media only screen and (max-width: 400px) {
+    .weather-app .weather-image {
+        min-width: 100px;
+        min-height: 100px;  
+    }
+
+    .weather-app .panel-body {
+        padding: 0px;
+    }
+
+    .weather-app .panel-title-text {
+        font-size: 18px;
+    }
+
+}

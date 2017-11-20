@@ -1,0 +1,8 @@
+<div class="container-fluid">
+    <div class="col-md-6 col-xs-12" *ngFor="let city of cities">
+        <app-card [city]="city"></app-card>
+    </div>
+    <div class="col-md-12">
+        <button class="btn btn-danger btn-lg" (click)="removeAllCities()">Remove All</button>
+    </div>
+</div>

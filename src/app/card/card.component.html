@@ -1,0 +1,25 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">
+            <span class="panel-title-text">{{city}}</span><span class="float-right glyphicon glyphicon-remove remove-icon" (click)="removeCity(city)"></span>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="col-md-12 col-xs-12">
+            <div class="col-md-6 col-xs-6 weather-image" [style.background-image]="'url(../assets/images/icons/' + cityWeatherData.weather[0].icon + '.png)'" data-toggle="tooltip" data-placement="top" [title]="cityWeatherData.weather[0].description"></div>
+            <div class="col-md-6 col-xs-6 temp-window">
+                <h2>{{getTemprature(cityWeatherData.main.temp) + (scale == 'c' ? '&#8451;' : '&#8457;')}}</h2>
+            </div>
+        </div>
+        <div class="col-md-12 col-xs-12">
+            <div class="col-md-6 col-xs-6">
+                <h4>{{cityWeatherData.weather[0].main}}</h4>
+                <h6>{{cityWeatherData.weather[0].description}}</h6>
+            </div>
+            <div class="col-md-6 col-xs-6 no-padding">
+                <div class="col-md-6"><label>Wind Speed</label>{{cityWeatherData.wind.speed}} m/s</div>
+                <div class="col-md-6"><label>Humidity</label>{{cityWeatherData.main.humidity}}%</div>
+            </div>
+        </div>
+    </div>
+</div>
