@@ -9,8 +9,7 @@ Then, you can install the app itself by
 You can by a hit of a command see the application running, just
 `npm start`
 And the world will be at your hands.
-
-##Notes
+## Notes
 1. Because of limited time, application assumes you will run it on default angular-cli port http://localhost:4200
 2. Unfortunately, also because of time, Weather API ID is hard coded within the application.
 ## Finally
