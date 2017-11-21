@@ -1,5 +1,6 @@
 # weather-app
 Weather simple dashboard using data from (http://openweathermap.org) using Angular 2
+![Weather Application Dashboard](/src/assets/images/weather-app.png?raw=true)
 ## Install
 You should have angular-cli to deal with this. install via
 `npm install -g angular-cli`
